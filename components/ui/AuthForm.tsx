@@ -24,6 +24,7 @@ import { authFormSchema } from '@/lib/utils';
 import { Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { signUp, signIn } from '@/lib/actions/user.actions';
+import PlaidLink from './PlaidLink';
 
 const AuthForm = ({ type }: { type: string}) => {
   const router = useRouter();
@@ -44,11 +45,23 @@ const AuthForm = ({ type }: { type: string}) => {
 
     try {
       // Sign up & create Plaid link token
+      const userData = {
+        firstName: data.firstName!,
+        lastName: data.lastName!,
+        address1: data.address1!,
+        city: data.city!,
+        state: data.state!,
+        postalCode: data.postalCode!,
+        dateOfBirth: data.dateOfBirth!,
+        ssn: data.ssn!,
+        email: data.email,
+        password: data.password,
+      }
       if (type === AuthRoutes.SignUp) {
-        const newUser = await signUp(data);
+        const newUser = await signUp(userData);
         setUser(newUser);
       } else if (type === AuthRoutes.SignIn) {
-        const response = await signIn({ email: data.email, password: data.password});
+        const response = await signIn({ email: userData.email, password: userData.password});
         
         if (response) router.push('/')
       }
@@ -79,9 +92,9 @@ const AuthForm = ({ type }: { type: string}) => {
       </header>
       { user ? (
         <div className="flex flex-col gap-4">
-          {/* PLAID LINK */}
+          <PlaidLink user={user} variant="primary" />
         </div>
-      ) : (
+        ) : (
         <>
           <Form {...form}>
             {type === AuthRoutes.SignUp && (
@@ -90,11 +103,11 @@ const AuthForm = ({ type }: { type: string}) => {
                   <CustomInput control={form.control} name="firstName" label="First Name" />
                   <CustomInput control={form.control} name="lastName" label="Last Name" />
                 </div>
-                <CustomInput control={form.control} name="streetAddress" label="Street Address" />
+                <CustomInput control={form.control} name="address1" label="Street Address" />
                 <CustomInput control={form.control} name="city" label="City" />
                 <div className="flex gap-4">
                   <CustomInput control={form.control} name="state" label="State" placeholder="ex: MD" />
-                  <CustomInput control={form.control} name="zipCode" label="Zip Code" placeholder="ex: 12303" />
+                  <CustomInput control={form.control} name="postalCode" label="Zip Code" placeholder="ex: 12303" />
                 </div>
                 <div className="flex gap-4">
                   <CustomInput control={form.control} name="dateOfBirth" label="Date of Birth" placeholder="mm/dd/yyyy" />

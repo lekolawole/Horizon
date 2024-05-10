@@ -200,10 +200,10 @@ export const getTransactionStatus = (date: Date) => {
 export const authFormSchema = (type: string) => z.object({
   firstName: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
   lastName: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
-  streetAddress: type === AuthRoutes.SignIn ? z.string().optional() : z.string().max(50),
+  address1: type === AuthRoutes.SignIn ? z.string().optional() : z.string().max(50),
   city: type === AuthRoutes.SignIn ? z.string().optional() : z.string().max(50),
   state: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(2).max(2),
-  zipCode: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3).max(6),
+  postalCode: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3).max(6),
   dateOfBirth: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3), 
   ssn: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
 

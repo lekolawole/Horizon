@@ -5,6 +5,11 @@ export const authMessages = {
   AlreadyHaveAnAccount: 'Already have an account?'
 };
 
+export const errorMessages = {
+  FailedUserCreation: 'Error creating user',
+  FailedDwollaCustomerCreation: 'Error creating Dwolla customer'
+}
+
 export const actions = {
   AddBank: 'Add Bank',
   LinkAccount: 'Link Account',
