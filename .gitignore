@@ -6,3 +6,19 @@ node_modules
 
 # Sentry Config File
 .sentryclirc
+
+# local env files
+.env*.local
+
+# Sentry Config File
+.sentryclirc
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
