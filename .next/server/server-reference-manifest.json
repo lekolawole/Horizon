@@ -1,5 +1,164 @@
 {
-  "node": {},
+  "node": {
+    "429d28722f205b859fd265871d3108067e30f21d": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "4f283ff16edd83cbae2622333c896560bc059166": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "564c8efc72827065e71a1727f4957ee91e963e5b": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "612d9fe0c70a2c55f0bd3007d25e87c47efa9abc": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "a3f1a0d497399195804b40e5321b25051f50806c": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "a9152c991561c7dba6186a595a5b748fa866b950": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "ddea4782d39c06c6706af2099997ec22674f1bf7": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "673c6f0598d04354098176669e39e0591e8b8d41": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    },
+    "930ccc35cc4a98b42e719744e425326126ad113d": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/my-banks/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/transaction-history/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/payment-transfer/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22logoutUser%22%2C%22signIn%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_2%22%2C%22getLoggedInUser%22%5D%5D%2C%5B%22%2FUsers%2Fladekolawole%2Fdev-projects%2Fhorizon%2FHorizon%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc",
+        "app/(root)/my-banks/page": "rsc",
+        "app/(root)/transaction-history/page": "rsc",
+        "app/(root)/payment-transfer/page": "rsc"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "bQq+itEgyp0idQUW0VKNIAIF9Cs/UVHdbkc8O17iGjU="
+  "encryptionKey": "gcYyOnC/O7toeZTAgVfhZ/cNeU9hC67eoOBOjaUdY2g="
 }

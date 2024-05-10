@@ -1,13 +1,17 @@
-'use client';
 import Image from 'next/image'
 import Sidebar from "@/components/ui/Sidebar";
 import MobileNav from '@/components/ui/MobileNav';
+import { getLoggedInUser } from '@/lib/actions/user.actions';
+import { redirect } from 'next/navigation';
+import { AuthRoutes } from '@/constants/messages';
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const loggedIn = { firstName: 'Guest', lastName: 'User' };
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const loggedIn = await getLoggedInUser();
 
+  if (!loggedIn) redirect(AuthRoutes.SignIn);
+  
   return (
-    <main className="flex h-screen w-full font-inter">
+    <main className="flex min-h-screen w-full font-inter justify-between">
       <Sidebar user={loggedIn} />
 
       <div className="flex size-full flex-col">

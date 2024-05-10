@@ -1,7 +1,9 @@
 /* eslint-disable no-prototype-builtins */
+import { AuthRoutes } from "@/constants/messages";
 import { type ClassValue, clsx } from "clsx";
 import qs from "query-string";
 import { twMerge } from "tailwind-merge";
+import { z } from "zod";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -193,3 +195,18 @@ export const getTransactionStatus = (date: Date) => {
 
   return date > twoDaysAgo ? "Processing" : "Success";
 };
+
+// Form Schema
+export const authFormSchema = (type: string) => z.object({
+  firstName: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
+  lastName: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
+  streetAddress: type === AuthRoutes.SignIn ? z.string().optional() : z.string().max(50),
+  city: type === AuthRoutes.SignIn ? z.string().optional() : z.string().max(50),
+  state: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(2).max(2),
+  zipCode: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3).max(6),
+  dateOfBirth: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3), 
+  ssn: type === AuthRoutes.SignIn ? z.string().optional() : z.string().min(3),
+
+  email: z.string().email(),
+  password: z.string().min(8),
+});
